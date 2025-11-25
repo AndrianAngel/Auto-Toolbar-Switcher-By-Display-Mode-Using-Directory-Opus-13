@@ -1,4 +1,4 @@
-Auto Toolbar By Display Mode
+❄️ Auto Toolbar By Display Mode ❄️
 
 📖 Overview
 Auto Toolbar By Display Mode is a Directory Opus script that automatically shows or hides toolbars depending on the current lister display mode.  
@@ -59,4 +59,28 @@ The script exposes several configuration settings in Script Add‑ins:
 🛡️ Notes
 - Requires Directory Opus 13.0 or later.  
 - Designed for two toolbars but can be configured for custom setups.  
-- Debug logging can be enabled to trace mode changes and toolbar commands.  
+- Debug logging can be enabled to trace mode changes and toolbar commands.
+
+
+🌹🌹 Install Notes 🌹🌹
+👉 Select Auto Toolbar By Display Enhanced 3.0.vbs
+👉 Select Setting Drop-down menu 
+👉 Choose install script , Done 👌
+
+🌞Script Setting🌞
+
+
+
+
+![A1 Settings](Images/A1.png)
+
+📽️ Here's a demo
+
+The recording is slow not the program 👀
+
+
+
+👉 https://youtu.be/7M3DB8p8MB8👈
+
+
+
