@@ -4,7 +4,7 @@
 Auto Toolbar By Display Mode is a Directory Opus script that automatically shows or hides toolbars depending on the current lister display mode.  
 It was designed to streamline workflows by dynamically toggling between two toolbars—one for Dual Vertical mode and one for Dual Horizontal mode—without requiring the user to restart or re‑enter folders.
 
-This script is based on AutoFolderCommand.vbs by ThioJoe, but has been enhanced to:
+This script is based on AutoFolderCommand.vbs by ThioJoe 🌿 https://resource.dopus.com/t/script-for-running-various-commands-when-entering-specific-paths/51839 🌿, but i keep only the toolbar feature with some enhancement for my own workflow:
 - Detect changes between dual vertical and dual horizontal layouts in real time.
 - Remember toolbar positions and restore them correctly.
 - Provide flexible configuration options for toolbar placement and behavior.
