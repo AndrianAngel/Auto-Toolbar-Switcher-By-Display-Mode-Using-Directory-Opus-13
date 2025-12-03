@@ -67,20 +67,24 @@ The script exposes several configuration settings in Script Add‑ins:
 👉 Select Setting Drop-down menu 
 👉 Choose install script , Done 👌
 
+---
+
 🌞Script Setting🌞
 
 
-
+---
 
 ![A1 Settings](Images/A1.png)
 
+---
+
 📽️ Here's a demo
 
-The recording is slow not the program 👀
+---
+
+![Auto.Toolbar.By.Display.Mode.gif Settings](Auto.Toolbar.By.Display.Mode.gif)
 
 
-
-👉 https://youtu.be/7M3DB8p8MB8👈
-
+---
 
 
