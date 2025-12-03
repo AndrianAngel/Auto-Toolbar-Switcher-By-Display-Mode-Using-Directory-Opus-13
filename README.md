@@ -82,7 +82,7 @@ The script exposes several configuration settings in Script Add‑ins:
 
 ---
 
-![Auto.Toolbar.By.Display.Mode.gif Settings](Auto.Toolbar.By.Display.Mode.gif)
+![Auto.Toolbar.By.Display.Mode.gif Settings](Images/Auto.Toolbar.By.Display.Mode.gif)
 
 
 ---
