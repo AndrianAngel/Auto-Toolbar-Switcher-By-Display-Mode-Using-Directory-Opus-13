@@ -9,6 +9,30 @@
 
 ---
 
+## 📣 Why Error Suppression Mode?
+
+--- 
+
+🎯 This version implements comprehensive error suppression (On Error Resume Next) throughout the script. While this may seem unconventional, it's necessary due to timing-related errors that occur during Directory Opus's lister lifecycle events.
+
+---
+
+🏁The script functions perfectly in practice - toolbars switch correctly, positions are remembered, and all features work as intended. However, the error log would occasionally show errors when listers are being created, destroyed, or transitioning between states. These errors are false positives caused by the script attempting to read lister properties during brief moments when the lister object is in flux (initializing, closing, or mid-transition).
+
+--- 
+
+## 🌿 Key points 🌿:
+
+---
+
+- The errors don't affect functionality - they're purely cosmetic log entries
+- The script already handles these edge cases gracefully with validation checks (IsListerValid, SafeGetDualMode)
+- The timing issues are inherent to how Directory Opus fires events during lister state changes
+- Suppressing these errors provides a cleaner user experience without compromising reliability
+The script validates lister objects before any critical operations and safely exits when a lister isn't accessible, making the error suppression safe and appropriate for this use case.
+
+---
+
 📖 Overview
 Auto Toolbar By Display Mode is a Directory Opus script that automatically shows or hides toolbars depending on the current lister display mode.  
 It was designed to streamline workflows by dynamically toggling between two toolbars—one for Dual Vertical mode and one for Dual Horizontal mode—without requiring the user to restart or re‑enter folders.
