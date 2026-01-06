@@ -96,7 +96,7 @@ The script exposes several configuration settings in Script Add‑ins:
 - Debug logging can be enabled to trace mode changes and toolbar commands.
 
 
-## 🌹🌹 Install Notes 🌹🌹
+## 📜 Install Notes:
 
 - 👉 Select Auto Toolbar By Display Enhanced 3.0.vbs
 - 👉 Select Setting Drop-down menu 
