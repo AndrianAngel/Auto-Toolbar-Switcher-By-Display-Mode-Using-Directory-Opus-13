@@ -17,7 +17,7 @@
 
 ---
 
-🏁The script functions perfectly in practice - toolbars switch correctly, positions are remembered, and all features work as intended. However, the error log would occasionally show errors when listers are being created, destroyed, or transitioning between states. These errors are false positives caused by the script attempting to read lister properties during brief moments when the lister object is in flux (initializing, closing, or mid-transition).
+🏁 The script functions perfectly in practice - toolbars switch correctly, positions are remembered, and all features work as intended. However, the error log would occasionally show errors when listers are being created, destroyed, or transitioning between states. These errors are false positives caused by the script attempting to read lister properties during brief moments when the lister object is in flux (initializing, closing, or mid-transition).
 
 --- 
 
@@ -33,7 +33,8 @@ The script validates lister objects before any critical operations and safely ex
 
 ---
 
-📖 Overview
+## 📖 Overview
+
 Auto Toolbar By Display Mode is a Directory Opus script that automatically shows or hides toolbars depending on the current lister display mode.  
 It was designed to streamline workflows by dynamically toggling between two toolbars—one for Dual Vertical mode and one for Dual Horizontal mode—without requiring the user to restart or re‑enter folders.
 
@@ -44,7 +45,7 @@ This script is based on AutoFolderCommand.vbs by ThioJoe 🌿 https://resource.d
 
 ---
 
-✨ Features
+## ✨ Features
 - 🔄 Automatic Toolbar Switching  
   - Shows Toolbar V when in Dual Vertical mode.  
   - Shows Toolbar H when in Dual Horizontal mode.  
@@ -66,7 +67,7 @@ This script is based on AutoFolderCommand.vbs by ThioJoe 🌿 https://resource.d
 
 ---
 
-⚙️ Configuration
+## ⚙️ Configuration
 The script exposes several configuration settings in Script Add‑ins:
 
 | Setting | Description | Default |
@@ -82,27 +83,28 @@ The script exposes several configuration settings in Script Add‑ins:
 
 ---
 
-🧩 Example Workflow
+## 🧩 Example Workflow
 - Open a lister in Dual Vertical mode → Toolbar V appears at the top.  
 - Toggle to Dual Horizontal mode → Toolbar H replaces it at the bottom.  
 - Switch back to Single Display mode → both toolbars close automatically.  
 
 ---
 
-🛡️ Notes
+## 🛡️ Notes
 - Requires Directory Opus 13.0 or later.  
 - Designed for two toolbars but can be configured for custom setups.  
 - Debug logging can be enabled to trace mode changes and toolbar commands.
 
 
-🌹🌹 Install Notes 🌹🌹
-👉 Select Auto Toolbar By Display Enhanced 3.0.vbs
-👉 Select Setting Drop-down menu 
-👉 Choose install script , Done 👌
+## 🌹🌹 Install Notes 🌹🌹
+
+- 👉 Select Auto Toolbar By Display Enhanced 3.0.vbs
+- 👉 Select Setting Drop-down menu 
+- 👉 Choose install script , Done 👌
 
 ---
 
-🌞Script Setting🌞
+## 🌞Script Setting🌞
 
 
 ---
@@ -111,7 +113,7 @@ The script exposes several configuration settings in Script Add‑ins:
 
 ---
 
-📽️ Here's a demo
+## 📽️ Here's a demo
 
 ---
 
