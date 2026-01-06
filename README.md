@@ -1,4 +1,4 @@
-❄️ Auto Toolbar By Display Mode ❄️
+## ❄️ Auto Toolbar By Display Mode ❄️
 
 ---
 
